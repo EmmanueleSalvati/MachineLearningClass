@@ -1,0 +1,3 @@
+brew uninstall octave
+brew reinstall $(brew deps octave)
+brew install octave
