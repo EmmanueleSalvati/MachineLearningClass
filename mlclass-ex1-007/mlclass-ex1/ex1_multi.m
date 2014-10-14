@@ -106,12 +106,12 @@ theta2 = zeros(3, 1);
 theta3 = zeros(3, 1);
 [theta1, J1] = gradientDescentMulti(X, y, theta1, 0.3, num_iters);
 [theta2, J2] = gradientDescentMulti(X, y, theta2, 0.1, num_iters);
-[theta3, J3] = gradientDescentMulti(X, y, theta3, 0.003, num_iters);
+[theta3, J3] = gradientDescentMulti(X, y, theta3, 0.03, num_iters);
 figure;
-% plot(1:50, J1(1:50), 'b');
-% hold on;
-% plot(1:50, J2(1:50), 'r');
-% hold on;
+plot(1:50, J1(1:50), 'b');
+hold on;
+plot(1:50, J2(1:50), 'r');
+hold on;
 plot(1:50, J3(1:50), 'k');
 
 % Estimate the price of a 1650 sq-ft, 3 br house

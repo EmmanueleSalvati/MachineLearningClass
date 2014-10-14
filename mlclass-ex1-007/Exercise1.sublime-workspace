@@ -116,26 +116,26 @@
 	"buffers":
 	[
 		{
-			"file": "mlclass-ex1/gradientDescent.m",
+			"file": "mlclass-ex1/gradientDescentMulti.m",
 			"settings":
 			{
-				"buffer_size": 1123,
+				"buffer_size": 1129,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "mlclass-ex1/ex1.m",
+			"file": "mlclass-ex1/ex1_multi.m",
 			"settings":
 			{
-				"buffer_size": 3438,
+				"buffer_size": 4996,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "mlclass-ex1/computeCost.m",
+			"file": "mlclass-ex1/computeCostMulti.m",
 			"settings":
 			{
-				"buffer_size": 739,
+				"buffer_size": 736,
 				"line_ending": "Unix"
 			}
 		}
@@ -209,6 +209,10 @@
 	],
 	"file_history":
 	[
+		"/Users/es575/SideProjects/MachineLearningClass/mlclass-ex1-007/mlclass-ex1/gradientDescent.m",
+		"/Users/es575/SideProjects/MachineLearningClass/mlclass-ex1-007/mlclass-ex1/normalEqn.m",
+		"/Users/es575/SideProjects/MachineLearningClass/mlclass-ex1-007/mlclass-ex1/computeCostMulti.m",
+		"/Users/es575/SideProjects/MachineLearningClass/mlclass-ex1-007/mlclass-ex1/ex1.m",
 		"/Users/es575/SideProjects/MachineLearningClass/mlclass-ex1-007/mlclass-ex1/computeCost.m",
 		"/Users/es575/SideProjects/MachineLearningClass/mlclass-ex1-007/mlclass-ex1/plotData.m",
 		"/Users/es575/SideProjects/MachineLearningClass/mlclass-ex1-007/mlclass-ex1/warmUpExercise.m",
@@ -332,11 +336,7 @@
 		"/var/folders/t9/k44wykd93yv78jlb_9gdyq1h0000gp/T/sublime-sftp-browse-1398097077/nys1login.json/home/uscms208/cms/CMGTools/CMSSW_5_3_14/src/CMGTools/Susy/python/RazorMultiJet/razorMultijet_cff.py",
 		"/var/folders/t9/k44wykd93yv78jlb_9gdyq1h0000gp/T/sublime-sftp-browse-1398095015/nys1login.json/home/uscms208/cms/CMGTools/CMSSW_5_3_14/src/CMGTools/Susy/plugins/TrackIsolationMaker.cc",
 		"/var/folders/t9/k44wykd93yv78jlb_9gdyq1h0000gp/T/sublime-sftp-browse-1397847929/CMGToolsLxplus5.json/afs/cern.ch/work/s/salvati/CMGTools/CMSSW_5_3_14/src/CMGTools/Common/crab/crab.cfg",
-		"/var/folders/t9/k44wykd93yv78jlb_9gdyq1h0000gp/T/sublime-sftp-browse-1397833407/CMGToolsLxplus5.json/afs/cern.ch/work/s/salvati/CMGTools/CMSSW_5_3_14/src/CMGTools/Common/crab/PATCMG_cfg.py",
-		"/var/folders/t9/k44wykd93yv78jlb_9gdyq1h0000gp/T/sublime-sftp-browse-1397851046/nys1login.json/home/uscms208/cms/CMGTools/CMSSW_5_3_14/src/CMGTools/Susy/plugins/TrackIsolationMaker.cc",
-		"/var/folders/t9/k44wykd93yv78jlb_9gdyq1h0000gp/T/sublime-sftp-browse-1397850678/nys1login.json/home/uscms208/cms/CMGTools/CMSSW_5_3_14/src/CMGTools/Susy/python/RazorMultiJet/razorMultijet_cff.py",
-		"/var/folders/t9/k44wykd93yv78jlb_9gdyq1h0000gp/T/sublime-sftp-browse-1397850594/CMGToolsLxplus5.json/afs/cern.ch/work/s/salvati/CMGTools/CMSSW_5_3_14/src/CMGTools/Susy/python/RazorMultiJet/razorMultiJetEventContent_cff.py",
-		"/var/folders/t9/k44wykd93yv78jlb_9gdyq1h0000gp/T/sublime-sftp-browse-1397831467/nys1login.json/home/uscms208/cms/CMGTools/CMSSW_5_3_14/src/CMGTools/Susy/susy_cfg.py"
+		"/var/folders/t9/k44wykd93yv78jlb_9gdyq1h0000gp/T/sublime-sftp-browse-1397833407/CMGToolsLxplus5.json/afs/cern.ch/work/s/salvati/CMGTools/CMSSW_5_3_14/src/CMGTools/Common/crab/PATCMG_cfg.py"
 	],
 	"find":
 	{
@@ -492,19 +492,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "mlclass-ex1/gradientDescent.m",
+					"file": "mlclass-ex1/gradientDescentMulti.m",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1123,
+						"buffer_size": 1129,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								891,
-								891
+								1094,
+								1094
 							]
 						],
 						"settings":
@@ -520,30 +520,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 1,
-					"file": "mlclass-ex1/ex1.m",
+					"file": "mlclass-ex1/ex1_multi.m",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3438,
+						"buffer_size": 4996,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1923,
-								1923
+								2520,
+								2520
 							]
 						],
 						"settings":
@@ -554,27 +554,27 @@
 							"syntax": "Packages/Matlab/Matlab.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 545.0,
+						"translation.y": 850.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "mlclass-ex1/computeCost.m",
+					"file": "mlclass-ex1/computeCostMulti.m",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 739,
+						"buffer_size": 736,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								736,
+								736
 							]
 						],
 						"settings":
@@ -674,7 +674,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

@@ -20,9 +20,8 @@ for iter = 1:num_iters
     temp_theta = theta;
     % calculate one theta_j per feature
     for j = 1:size(X, 2),
-        theta(j) = temp_theta(j) - 1 / m * sum((X * theta - y)' * X(:, j));
+        theta(j) = temp_theta(j) - alpha / m * sum((X * temp_theta - y)' * X(:, j));
     end
-
 
     temp_theta = theta;
 
