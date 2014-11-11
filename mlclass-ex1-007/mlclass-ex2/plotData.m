@@ -15,7 +15,7 @@ figure; hold on;
 
 
 
-
+% I need to subset the data according to the value of y, first
 
 
 
