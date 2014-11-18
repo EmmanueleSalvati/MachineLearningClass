@@ -116,26 +116,18 @@
 	"buffers":
 	[
 		{
-			"file": "costFunction.m",
-			"settings":
-			{
-				"buffer_size": 1405,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "costFunctionReg.m",
-			"settings":
-			{
-				"buffer_size": 907,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "ex2.m",
 			"settings":
 			{
 				"buffer_size": 3717,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plotDecisionBoundary.m",
+			"settings":
+			{
+				"buffer_size": 1451,
 				"line_ending": "Unix"
 			}
 		}
@@ -205,10 +197,11 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/JerkFace/SideProjects/MachineLearning/mlclass-ex2"
+		"/Users/es575/SideProjects/MachineLearningClass/mlclass-ex2"
 	],
 	"file_history":
 	[
+		"/Users/es575/SideProjects/MachineLearningClass/mlclass-ex2/costFunction.m",
 		"/Users/JerkFace/SideProjects/MachineLearning/mlclass-ex2/sigmoid.m",
 		"/Users/JerkFace/SideProjects/MachineLearning/mlclass-ex2/plotData.m",
 		"/Users/JerkFace/SideProjects/MachineLearning/mlclass-ex2/Exercise2.sublime-project",
@@ -335,8 +328,7 @@
 		"/var/folders/t9/k44wykd93yv78jlb_9gdyq1h0000gp/T/sublime-sftp-browse-1398114498/CMGToolsLxplus5.json/afs/cern.ch/work/s/salvati/CMGTools/CMSSW_5_3_9/src/CMGTools/Common/crab/crab.cfg",
 		"/var/folders/t9/k44wykd93yv78jlb_9gdyq1h0000gp/T/sublime-sftp-browse-1398114535/CMGToolsLxplus5.json/afs/cern.ch/work/s/salvati/CMGTools/CMSSW_5_3_9/src/CMGTools/Common/crab/crab_test.cfg",
 		"/var/folders/t9/k44wykd93yv78jlb_9gdyq1h0000gp/T/sublime-sftp-browse-1398112956/nys1login.json/home/uscms208/cms/CMGTools/CMSSW_5_3_14/python/CMGTools/Production/batchmanager.py",
-		"/var/folders/t9/k44wykd93yv78jlb_9gdyq1h0000gp/T/sublime-sftp-browse-1398113137/nys1login.json/home/uscms208/cms/CMGTools/CMSSW_5_3_14/bin/slc5_amd64_gcc462/cmsBatch.py",
-		"/var/folders/t9/k44wykd93yv78jlb_9gdyq1h0000gp/T/sublime-sftp-browse-1398112322/nys1login.json/home/uscms208/cms/CMGTools/CMSSW_5_3_14/bin/slc5_amd64_gcc462/cmsBatch.py"
+		"/var/folders/t9/k44wykd93yv78jlb_9gdyq1h0000gp/T/sublime-sftp-browse-1398113137/nys1login.json/home/uscms208/cms/CMGTools/CMSSW_5_3_14/bin/slc5_amd64_gcc462/cmsBatch.py"
 	],
 	"find":
 	{
@@ -488,23 +480,24 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "costFunction.m",
+					"file": "ex2.m",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1405,
+						"buffer_size": 3717,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								878,
-								878
+								2342,
+								2342
 							]
 						],
 						"settings":
@@ -574,19 +567,19 @@
 							"syntax": "Packages/Matlab/Matlab.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 996.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "costFunctionReg.m",
+					"file": "plotDecisionBoundary.m",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 907,
+						"buffer_size": 1451,
 						"regions":
 						{
 						},
@@ -599,165 +592,18 @@
 						],
 						"settings":
 						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Matlab/Matlab.tmLanguage"
+							"syntax": "Packages/Matlab/Matlab.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "ex2.m",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3717,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1431,
-								1431
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Matlab/Matlab.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 627.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

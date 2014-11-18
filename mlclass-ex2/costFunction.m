@@ -20,28 +20,24 @@ grad = zeros(size(theta));
 % Note: grad should have the same dimensions as theta
 %
 
-
-% NOT WORKING YET! REVIEW THE COST FUNCTION J
-
-% Compute the cost function
+% COST FUNCTION
 my_sum = 0;
 for i = 1:m
-    my_sum += -y(i) * log(sigmoid(X(i, :))) ...
-        - (1 - y(i)) * log(1 - sigmoid(X(i, :)));
+    my_sum += -y(i) * log(sigmoid(theta' * X(i, :)')) ...
+        - (1 - y(i)) * log(1 - sigmoid(theta' * X(i, :)'));
 end;
 J = J + 1/m * my_sum;
 
-% Compute the gradient of the cost function
+%%%%%%%%%%%%%%%
+% GRADIENT of the cost function
 j_sum = zeros(size(grad));
 for j = 1:size(grad)
     for i = 1:m
-        % (sigmoid(X(i, j)) - y(i)) * X(i, j)
-        j_sum(j) += (sigmoid(X(i, j)) - y(i)) * X(i, j);
+        j_sum(j) = j_sum(j) + (sigmoid(theta' * X(i, :)') - y(i)) * X(i, j);
     end;
-    % grad(j) = 1/m * j_sum(j);
 end;
 
-grad = 1/m * j_sum
+grad = 1/m * j_sum;
 
 % =============================================================
 
