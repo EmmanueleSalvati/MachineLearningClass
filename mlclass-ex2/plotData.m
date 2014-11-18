@@ -12,20 +12,16 @@ figure; hold on;
 %               examples and 'ko' for the negative examples.
 %
 
-
-
-
 % I need to subset the data according to the value of y, first
-pos = X( find(y == 1), :)
-neg = X( find(y == 0), :)
+pos = X( find(y == 1), :);
+neg = X( find(y == 0), :);
 
-plot (pos(:, 1), pos(:, 2), 'k+');
-plot (neg(:, 1), neg(:, 2), 'yo');
+plot (pos(:, 1), pos(:, 2), 'k+', 'markersize', 7);
+plot (neg(:, 1), neg(:, 2), 'ko', 'markerfacecolor', 'yellow',
+      'markersize', 7);
 
 
 % =========================================================================
-
-
 
 hold off;
 

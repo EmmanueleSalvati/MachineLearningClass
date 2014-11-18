@@ -7,7 +7,7 @@ function [J, grad] = costFunction(theta, X, y)
 % Initialize some useful values
 m = length(y); % number of training examples
 
-% You need to return the following variables correctly 
+% You need to return the following variables correctly
 J = 0;
 grad = zeros(size(theta));
 
@@ -21,11 +21,27 @@ grad = zeros(size(theta));
 %
 
 
+% NOT WORKING YET! REVIEW THE COST FUNCTION J
 
+% Compute the cost function
+my_sum = 0;
+for i = 1:m
+    my_sum += -y(i) * log(sigmoid(X(i, :))) ...
+        - (1 - y(i)) * log(1 - sigmoid(X(i, :)));
+end;
+J = J + 1/m * my_sum;
 
+% Compute the gradient of the cost function
+j_sum = zeros(size(grad));
+for j = 1:size(grad)
+    for i = 1:m
+        % (sigmoid(X(i, j)) - y(i)) * X(i, j)
+        j_sum(j) += (sigmoid(X(i, j)) - y(i)) * X(i, j);
+    end;
+    % grad(j) = 1/m * j_sum(j);
+end;
 
-
-
+grad = 1/m * j_sum
 
 % =============================================================
 
