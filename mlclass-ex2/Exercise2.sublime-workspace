@@ -115,14 +115,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "mlclass-ex2/ex2.m",
-			"settings":
-			{
-				"buffer_size": 3722,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -189,7 +181,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/es575/SideProjects/MachineLearningClass/mlclass-ex1-007/mlclass-ex2"
+		"/Users/es575/SideProjects/MachineLearningClass/mlclass-ex2"
 	],
 	"file_history":
 	[
@@ -472,40 +464,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "mlclass-ex2/ex2.m",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 3722,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Matlab/Matlab.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
