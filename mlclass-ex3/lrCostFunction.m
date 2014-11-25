@@ -36,15 +36,19 @@ grad = zeros(size(theta));
 %           grad = grad + YOUR_CODE_HERE (using the temp variable)
 %
 
+J = J + 1/m * sum(y .* log(sigmoid(X * theta)) .- (1 - y) .* ...
+                  log(1 - sigmoid(X * theta)), 1);
 
+% regularize J
+J = J + lambda/(2 * m) * (theta' * theta - theta(1) * theta(1));
 
+% I think it is right up to here.
+% grad is 400x1, whereas the others are 5000x1
 
-
-
-
-
-
-
+grad = grad + (sigmoid(X * theta) .- y) .* X';
+temp = theta;
+temp(1) = 0;
+grad = grad .+ lambda / m * temp;
 
 % =============================================================
 
