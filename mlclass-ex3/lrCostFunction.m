@@ -36,19 +36,25 @@ grad = zeros(size(theta));
 %           grad = grad + YOUR_CODE_HERE (using the temp variable)
 %
 
-J = J + 1/m * sum(y .* log(sigmoid(X * theta)) .- (1 - y) .* ...
-                  log(1 - sigmoid(X * theta)), 1);
+size(y .* log(sigmoid(X * theta)))
+size(- (1 - y) .* log(1 - sigmoid(X * theta)))
+
+J = J + 1/m * sum(y .* log(sigmoid(X * theta)) ...
+                  - (1 - y) .* log(1 - sigmoid(X * theta)));
 
 % regularize J
-J = J + lambda/(2 * m) * (theta' * theta - theta(1) * theta(1));
+% J = J + lambda/(2 * m) * (theta' * theta - theta(1) * theta(1));
+% J = J + lambda/(2 * m) * sum(theta(2:end) .^ 2)
 
-% I think it is right up to here.
-% grad is 400x1, whereas the others are 5000x1
+% Now the gradient
+% my version
+% grad = grad + ((sigmoid(theta' * X') .- y') * X)';
 
-grad = grad + (sigmoid(X * theta) .- y) .* X';
+% his version
+grad = grad + X' * (sigmoid(X * theta) - y);
 temp = theta;
 temp(1) = 0;
-grad = grad .+ lambda / m * temp;
+grad = grad + lambda / m * temp;
 
 % =============================================================
 
